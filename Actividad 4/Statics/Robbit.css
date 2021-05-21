@@ -1,0 +1,63 @@
+@font-face {
+    font-family: kurale;
+    src: url(./fonts/Kurale-Regular.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway-Regular.ttf);
+    font-style: normal;
+}
+
+header{
+    top: 50%;
+    background-color: green;
+    color: rgb(227, 241, 30); 
+    height: 60px;
+    font-family: kurale;
+    font-size: 30px;
+     ;
+    
+}
+a:first-child{
+    margin-left: 130px;
+}
+a{
+    margin-right: 130px;
+    background-color: rgb(227, 241, 30);
+    color: green;
+    border-radius: 1em, 1em, 1em, 1em;
+    width: 100px;
+}
+
+footer{
+    background-color: green;
+    color: rgb(227, 241, 30);
+    height: 100px;
+    font-family: Raleway;
+    font-size: 20px;
+}
+
+
+
+h1{
+    position: absolte;
+    background-color: green;
+    color: rgb(227, 241, 30);
+    font-family: kurale;
+    float: right;
+    width: 55%;
+    font-display: center;
+    text-align: center;
+    
+}
+p{
+    position: absolute;
+    background-color: green;
+    color: rgb(227, 241, 30);
+    font-family: Raleway;
+    left: 45%;
+    top: 25%;
+    width: 55%;
+    text-align:justify;
+}

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: kurale;
+    src: url(./fonts/Kurale-Regular.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway-Regular.ttf);
+    font-style: normal;
+}
+
+header{
+    top: 50%;
+    background-color: green;
+    color: rgb(227, 241, 30); 
+    height: 60px;
+    font-family: kurale;
+    font-size: 30px;
+}
+
+a:first-child{
+    margin-left: 130px;
+}
+
+a{
+    margin-right: 130px;
+    background-color: rgb(227, 241, 30);
+    color: green;
+    border-radius: 1em, 1em, 1em, 1em;
+    width: 100px;
+}
+
+div{
+    position: relative;
+    left: 5%;
+}
+
+section{
+    position: relative;
+    height: 60%;
+    width: 35%;
+}
+
+#5{
+    position:relative;
+    width: 80%;
+    left: 10%;
+}
+
+#sec1{
+    left:10%;   
+}
+
+#sec2{
+    left:30%;
+}
+
+article{
+    position:relative;
+    margin-top: 100%;
+    background-color: green;
+}
+
+#art1{
+    position: absolute;
+    margin-left: 10%;
+    float: left;
+}
+#art2{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+    float: left;
+}
+#art3{
+    position: absolute;
+    margin-left: 55%;
+    float: right;
+    
+}
+#art4{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 10%;
+    float: right;
+}
+
+
+
+
+
+h1{
+    position: absolte;
+    background-color: green;
+    color: rgb(227, 241, 30);
+    font-family: kurale;
+    width: 55%;
+    font-display: center;
+    text-align: center;
+    margin-left: 22.5%;
+    
+}
+p{
+    position: relative;
+    background-color: green;
+    color: rgb(227, 241, 30);
+    font-family: Raleway;
+    /*left: 45%;*/
+    top: 25%;
+    width: 55%;
+    text-align:justify;
+}
+
+footer{
+    position: absolute;
+    height: 100px;
+    top:300%;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 20px;
+    background-color: green;
+    color: rgb(227, 241, 30);
+}

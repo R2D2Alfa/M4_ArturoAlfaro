@@ -1,0 +1,99 @@
+@font-face {
+    font-family: kurale;
+    src: url(./fonts/Kurale-Regular.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway-Regular.ttf);
+    font-style: normal;
+}
+
+header{
+    top: 50%;
+    background-color: green;
+    color: rgb(227, 241, 30); 
+    height: 60px;
+    font-family: kurale;
+    font-size: 30px;
+}
+
+a:first-child{
+    margin-left: 130px;
+}
+
+a{
+    margin-right: 130px;
+    background-color: rgb(227, 241, 30);
+    color: green;
+    border-radius: 1em, 1em, 1em, 1em;
+    width: 100px;
+}
+
+div{
+    position: relative;
+    background-color: green;
+    margin-left: 100px;
+    font-family: kurale;
+    width: 80%;
+    height: 40px;
+    margin-top: 70px;
+    
+}
+
+section{
+    position:absolute;
+    margin-top: 10%;
+}
+
+#sec1{
+position: absolute;
+    left:5%;
+    width:400px;
+
+}
+
+#sec2{
+    position: absolute;
+    left: 500px;
+}
+
+#sec2 > article{
+    position: relative;
+    height: 230px;
+    width: 700px;
+    background-color: green;
+    color: rgb(227, 241, 30);
+}
+
+#art1 > a{
+    position: relative;
+    left: 80%;
+}
+#art2 > a{
+    position: relative;
+    left: 80%;
+}
+#art3 > a{
+    position: relative;
+    left: 80%;
+}
+#art4 > a{
+    position: relative;
+    left: 80%;
+}
+
+footer{
+    position: absolute;
+    height: 100px;
+    top:230%;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 20px;
+    background-color: green;
+    color: rgb(227, 241, 30);
+}
+
+p{
+    font-family: Raleway;
+}
