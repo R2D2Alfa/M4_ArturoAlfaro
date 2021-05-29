@@ -1,0 +1,13 @@
+nav{
+    background-color: rgb(46, 3, 3);
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    color: rgb(4, 13, 56);
+}
+
+#card{
+    align-self: center;
+}
